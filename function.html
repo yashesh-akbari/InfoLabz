@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function msg() {
+        document.write("welcome to home page" + "<br>");
+      }
+      msg();
+      function add() {
+        document.write(a + b + "<br>");
+      }
+      add(15, 15);
+      function sub() {
+        var a = 20,
+          b = 10;
+        return document.write(a - b + "<br>");
+      }
+      sub();
+      var a = sub();
+      document.write("<br>" + a);
+      function pow(x, y) {
+        return x ** y;
+      }
+      var b = pow(5, 2);
+    </script>
+  </body>
+</html>
